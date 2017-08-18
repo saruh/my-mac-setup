@@ -22,6 +22,7 @@ brew 'pkg-config'
 # brew 'imagemagick'
 brew 'imagemagick@6'
 brew 'apple-gcc42'
+brew 'packer'
 
 cask 'appcleaner'
 cask 'cyberduck'
