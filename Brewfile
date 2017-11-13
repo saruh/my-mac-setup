@@ -38,6 +38,7 @@ brew 'libiconv'
 brew 'libmcrypt'
 brew 'mecab'
 brew 'mecab-ipadic'
+brew 'direnv'
 
 cask 'appcleaner'
 cask 'cyberduck'
