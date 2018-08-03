@@ -39,6 +39,7 @@ brew 'libmcrypt'
 brew 'mecab'
 brew 'mecab-ipadic'
 brew 'direnv'
+brew 'yarn', args: ["without-node"]
 
 cask 'appcleaner'
 cask 'cyberduck'
