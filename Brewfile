@@ -16,9 +16,9 @@ brew 'awscli'
 brew 'jq'
 brew 'jid'
 
-# brew options mysql
 # brew 'mysql', args: ['client-only']
-brew 'mysql'
+#brew 'mysql'
+brew 'mysql@5.7'
 brew 'redis'
 brew 'pkg-config'
 # brew 'imagemagick'
