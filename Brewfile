@@ -66,3 +66,7 @@ cask 'alfred'
 cask 'obs'
 cask 'docker-edge'
 cask 'kitematic'
+
+# for ext4 mount
+cask 'osxfuse'
+brew 'ext4fuse'
