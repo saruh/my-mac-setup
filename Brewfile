@@ -40,6 +40,7 @@ brew 'mecab'
 brew 'mecab-ipadic'
 brew 'direnv'
 brew 'yarn', args: ["without-node"]
+brew 'pngquant'
 
 cask 'appcleaner'
 cask 'cyberduck'
