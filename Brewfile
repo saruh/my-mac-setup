@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 tap 'homebrew/dupes'
 tap 'caskroom/cask'
-tap 'caskroom/versions'
+#tap 'caskroom/versions'   <--- old repo
 tap 'simeji/jid'
 
 brew 'gibo'
@@ -15,17 +15,20 @@ brew 'mackup'
 brew 'awscli'
 brew 'jq'
 brew 'jid'
+brew 'telnet'
 
 # brew 'mysql', args: ['client-only']
 #brew 'mysql'
 brew 'mysql@5.7'
 brew 'redis'
 brew 'pkg-config'
+brew 'ffmpeg'
 # brew 'imagemagick'
 brew 'imagemagick@6'
 brew 'apple-gcc42'
 brew 'packer'
 brew 'terraform'
+brew 'serverless'
 brew 'mcrypt'
 brew 'intltool'
 brew 'icu4c'
@@ -59,7 +62,8 @@ cask 'skype'
 cask 'slack'
 cask 'virtualbox'
 cask 'visual-studio-code'
-cask 'sequel-pro'
+# cask 'sequel-pro'
+cask 'sequel-pro-nightly'
 cask 'rdm'
 cask 'boostnote'
 cask 'alfred'
@@ -70,3 +74,15 @@ cask 'kitematic'
 # for ext4 mount
 cask 'osxfuse'
 brew 'ext4fuse'
+
+# for csv, tsv
+brew 'q'
+
+# for ai to png
+brew 'ghostscript'
+
+# for project:jade-net-admin
+cask 'wkhtmltopdf'
+
+# for memo
+cask 'simplenote'
